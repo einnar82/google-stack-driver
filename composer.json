@@ -1,0 +1,21 @@
+{
+    "name": "einnar82/google-stack-driver",
+    "description": "Laravel log driver for Google App Engine",
+    "require": {
+        "google/cloud-error-reporting": "^0.15.0",
+        "google/cloud-logging": "^1.18"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rannie Ollit",
+            "email": "rannie.ollit@petnet.com.ph"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RannieOllit\\GoogleStackDriver\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

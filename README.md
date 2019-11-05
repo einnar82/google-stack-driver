@@ -15,7 +15,7 @@ Next, go to **config/logging.php** and add the google stack logger in the option
               'level' => 'debug',    
         ],
 
-Then set your LOG_CHANNEL into 'stackdriver' in your **.env**
+Then set your **LOG_CHANNEL** into 'stackdriver' in your **.env**
 
 Reference:
 
